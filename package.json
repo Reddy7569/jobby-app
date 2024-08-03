@@ -1,7 +1,7 @@
 {
+  "homepage": "https://Reddy7569.github.io/jobby-app",
   "name": "jobby-app",
   "version": "1.0.0",
-  "homepage": "https://Reddy7569.github.io/Jobby-App",
   "private": true,
   "engines": {
     "node": "^10.13 || 12 || 14 || 15",
@@ -33,9 +33,9 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
