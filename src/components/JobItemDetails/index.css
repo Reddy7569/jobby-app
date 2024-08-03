@@ -1,0 +1,35 @@
+.job-details-view-container {
+  background-color: #7e858e;
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Bree Serif';
+  background-size: cover;
+}
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-heading,
+.visit-icon {
+  text-decoration: none;
+  color: #6366f1;
+  font-family: 'Bree Seerif';
+}
+.skills-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.life-at-company-description-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.similar-jobs-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-family: 'Bree Serif';
+}
